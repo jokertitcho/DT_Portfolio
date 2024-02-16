@@ -4,9 +4,11 @@ body{
    background-color: azure;
 }
 header{
+    margin-top: -30px;
     background-color: aqua;
     height: 150px;
     margin: none;
+    color: coral;
 }
 nav>ul{
     display: flex;
