@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Sala claude</h1>
+        <h2>developpeur web</h2>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Accueil</a></li>
+            <li><a href="#about">A propos</a></li>
+            <li><a href="#projet">Projet</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="about">
+            <img src="devweb.jpeg" alt="developpeur_web">
+            <p>je m'appel claude j'ai 41 ans et je me reconvertis dans le monde passionnant du developpement web</p>
+            <p>j'ai commencé mon diplome depuis maintenant quelque semaine et ça confirme pour l'instant mon choix</p>
+
+        </section>
+        <section>
+            <h2 id="projet" >Projets</h2>
+            <article>
+                <h3>Calculateur IMC</h3>
+                <img id="IMC" src="calculateurImc.png" alt="imc_projet">
+                <p>ici j'ai fait mon premier projet pour m'initier a javascript</p>
+                <a href="https://calculateurimc.alwaysdata.net/imc.html" target="_blank">Lien du projet</a>
+            </article>
+            <article>
+                <h3>calculateur de recharge</h3>
+                <img id="LeafImg" src="calculateurRechargeLeaf.png" alt="calculateur de recharge">
+                <p>Ici j'ai demandé a ma copine de me trouver un défie pour aller plus loin dans mes <br>
+                    connaissances. J'ai donc developpé un calculateur pour connaitre le temps de charge de ça <br>
+                    voiture electrique, ainsi que le prix par recharge et les heures de début et de fin. <br>
+                    Le projet contient un historique géré par un cookie pour savoir ce que ça lui coûte au mois.
+                </p>
+                <a href="https://calculateur-de-recharge-leaf.go.yo.fr/leaf.html" target="_blank">Lien du projet</a>
+            </article>
+            <article>
+                <h3>calculteur de frais kilometrique</h3>
+                <img id="calKm" src="calculateurFraisKm.png" alt="Calculateur frais kilometrique">
+                <p>
+                    Ici Le projet n'est pas terminé pareil ma copine souhaitait un calculateur pour ces frais kilometrique j'ai donc commencé mais pas terminé . <br>
+                    le projet n'est visible que en format telephone portable. pour le moment le site n'est pas en ligne (et en travaux)
+                </p>
+                <a href="frais_km/frais.html" target="_blank">lien local </a>
+            </article>
+        </section>
+        <section>
+            <h2>Contactez moi</h2>
+            <form id="contact" action="">
+                <div>
+                    <label for="name">Votre nom</label>
+                    <input type="text" id="name" name="name">
+                </div>
+                <div>
+                    <label for="mail">Votre Email</label>
+                    <input type="email" id="email" name="email">
+                </div>
+                <div>
+                    <label for="sujet">Sujet</label>
+                    <input type="text" id="sujet" name="sujet">
+                </div>
+                <div>
+                    <label for="message">Message</label>
+                    <input type="textarea" id="message" name="message">
+                </div>
+
+
+
+                <button type="submit" value="se connecter">Envoyer</button>
+            </form>
+        </section>
+
+        <section>
+            <h2>Lieux de formation</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2829.4065180322095!2d-0.6393793732674294!3d44.833653983594246!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd552845733eb33f%3A0x2bf918c8dee4ccff!2sLa%20Piscine!5e0!3m2!1sfr!2sfr!4v1708098157424!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+    </main>
+    <footer>
+        <p>copyright 2024 &copy;</p>
+    </footer>
+    
+</body>
+</html>
